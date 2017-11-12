@@ -1,0 +1,17 @@
+.papir, .kamen, .škarje{
+  border: solid black 4px;
+  border-radius: 10px;
+  margin: 15px;
+  transition: all .5s;
+}
+.button{
+  border-bottom: gray solid 4px;
+}
+.papir:hover, .kamen:hover, .škarje:hover{
+  transform: scale(1.1) rotate(8deg);
+}
+
+h1{
+  padding: 10px;
+  background-color: red;
+}
